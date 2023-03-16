@@ -11,7 +11,7 @@
     </a>
     </div>
     
-    <h1>Susman, the bot that loves sussing<h1>
+    <h1>ALL HAIL THE LORD OF CRINGE<h1>
   </head>
   <body>
     <style>
@@ -63,17 +63,72 @@
   padding: 12px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+                  .cringebozo {
+  background: #223; /* Make it white if you need */
+  color: white;
+  padding-right: 725px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
     </style>
     
     <br>
-    
-    This bot spams sus.
-    
+    <h3>
+      <p>
+    	This bot spams sus.
+        <br>
+        This bot is free and open source.
+        <br>
+        But i'm not sharing the bot token lol
+        <br>
+        You can find the code in the Github
+        <br>
+        Discord reset the token I put in there
+        <br>
+        <br>
+        <br>
+        Code:
+      </p>  
+    </h3>
+   <div class=cringebozo>
+   	<pre class="line-numbers">
+   		<code class="language-javascript">
+      		const Discord = require("discord.js")
+const { Client, Intents } = require('discord.js');
+
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+
+// when the bot starts up
+client.on("ready", () => {
+  console.log(`Logged in as ${client.user.tag}!`)
+  console.log("Bot is online!")
+})
+
+// when someone types a message
+client.on("messageCreate", msg => {
+  // check if the message is ping
+  
+    // if the message is ping, reply with pong
+  msg.reply("sus amogus imposter");
+
+})
+
+// Add bot token in the "quotes" below
+client.login("TOKEN")
+
+
+// for uptimerobot:
+// https://replname.username.repl.co/
+   		</code>
+	</pre>
+   </div>
     <br>
     <div class=poop
       <img src="sus.PNG" alt="Susman" width="500" height="333">
     </div>
     <br>
+     
+    
+    
     
     
   </body>
